@@ -1,3 +1,3 @@
-input(hrs, "hours weekly: ")
-input(rate, "rate per hour: ")
-print(float(hrs)*float(rate))
+hrs = input("hours weekly: ")
+rate = input("rate per hour: ")
+print("pay",float(hrs)*float(rate))
