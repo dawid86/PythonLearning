@@ -11,13 +11,9 @@ while True:
         else:
             print("Invalid input")
             continue
-    #largest
-    #largest = n
-    #smallest
-    #smallest = n
 
-    #print(type(n))
-      
+#remember that all happens in sequence first assign n to largest, then assign it to smallest
+
     if largest is None:
         largest = n
     elif n > largest:
@@ -26,7 +22,7 @@ while True:
         smallest = n
     elif n < smallest:
         smallest = n
-            
+
 
 print("Maximum is", largest)
 print("Minimum is", smallest)
