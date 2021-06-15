@@ -8,4 +8,3 @@ if h > 40
     print(h*r*1.5)
 else
     print(h*r)
-print("pay",float(hrs)*float(rate))
