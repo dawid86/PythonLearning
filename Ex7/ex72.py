@@ -10,8 +10,10 @@
 # Use the file name mbox-short.txt as the file name
 fname = input("Enter file name: ")
 fhand = open(fname)
+
 linecount = 0
 totalvalue = 0
+
 for line in fhand:
     if line.startswith("X-DSPAM-Confidence:"):
         linecount = linecount + 1
